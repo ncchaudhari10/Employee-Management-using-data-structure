@@ -120,15 +120,15 @@ while(p!=NULL){
 
 void main(){
     clrscr();
-    int shubham;
+    int choice;
     int i,j;
      do{
     printf("**********MENU**********\n");
     printf("1. Add employee\n2. Display employee \n3. exit\n ");
     printf("************************");
     printf("\n enter your choice :");
-    scanf("%d",&shubham);
-    switch(shubham)
+    scanf("%d",&choice);
+    switch(choice)
     {
 	case 1:
 	printf("\n no. of employees");
@@ -143,16 +143,8 @@ void main(){
 	break;
     }
 
-    }while(shubham!=3);
-   // addafter();
-   // insert_beg();
-   // delete_at();
-
-  //  delete_at();
-  //   display();
-   //  int x= length();
-  //  printf("length of list is %d",x);
-
+    }while(choice!=3);
+   
 }
 
   
